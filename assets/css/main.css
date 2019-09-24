@@ -2094,6 +2094,16 @@ input, select, textarea {
 			color: inherit;
 		}
 
+
+.bottom-one {
+
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	
+}
 /* top information section */ 
 
 .major {
@@ -2101,14 +2111,14 @@ input, select, textarea {
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
+
+	
 }
 	.one {
 		display: flex;
-		align-items: center;
 		justify-content: center;
 		flex-direction: column;
-		text-align: center;
-		align-items: center;
 	}
 		.inside-one {
 			display: flex;
@@ -2117,10 +2127,9 @@ input, select, textarea {
 			flex-direction: column;
 			width: 100%;
 			text-align: center;
-			margin: 10%;
-			min-height: 200px;
+			margin: 10% auto;
+			height:100%;
 			align-items: center;
-
 			padding: 10px 10%;
 		
 		}
@@ -2133,12 +2142,12 @@ input, select, textarea {
 
 	 .two {
 		width: 100%;
-		max-width: 800px;
 		min-width: 675px;
 		height: 100%;
 		display: flex;
 		flex-direction: row;
-		justify-content: flex-end;
+		align-items: center;
+		justify-content: center;
 	}	
 	 .two img{
 		width:100%;
@@ -2146,17 +2155,25 @@ input, select, textarea {
 
 	}	
 
-	@media only screen and (max-width: 800px) {
+	@media only screen and (max-width: 1025px) {
+		.bottom-one {
+
+			width: 100%;
+			max-width: 1025px;
+		
+			display: flex;
+			flex-direction: column;}
+		
 		.major {
 
 			width: 100%;
-			max-width: 800px;
+			max-width: 1025px;
 		
 			display: flex;
 			flex-direction: column;}
 
 			.two {
-				max-width: 800px;
+				max-width: 100%;
 				min-width: auto;
 			}	
 			image{
@@ -2172,6 +2189,7 @@ article.header-video {
 	position: relative;
 	background-color: black;
 	height: 70vh;
+	min-height: 400px;
 	width: 100%;
 	overflow: hidden;
 	max-height: 500px;
@@ -2179,6 +2197,7 @@ article.header-video {
   @media only screen and (max-width: 600px) {
 	article.header-video {
 		height: 50vh;
+		min-height: 200px;
 	}
   }
 
