@@ -2133,6 +2133,7 @@ input, select, textarea {
 
 	 .two {
 		width: 100%;
+		max-width: 800px;
 		min-width: 675px;
 		height: 100%;
 		display: flex;
@@ -2173,6 +2174,7 @@ article.header-video {
 	height: 70vh;
 	width: 100%;
 	overflow: hidden;
+	max-height: 500px;
   }
   @media only screen and (max-width: 600px) {
 	article.header-video {
