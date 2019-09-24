@@ -1547,6 +1547,7 @@ input, select, textarea {
 						#header .navness {
 							display: flex;
 							flex-direction: row;
+						}
 	@media screen and (max-width: 736px) {
 
 		body {
@@ -1598,7 +1599,7 @@ input, select, textarea {
 					visibility: hidden;
 				}
 			}
-		}
+		
 	}
 
 /* Main */
@@ -2155,6 +2156,7 @@ input, select, textarea {
 
 			.two {
 				max-width: 800px;
+				min-width: auto;
 			}	
 			image{
 				widows: 100px;
@@ -2172,7 +2174,7 @@ article.header-video {
 	width: 100%;
 	overflow: hidden;
   }
-  @media only screen and (max-width: 800px) {
+  @media only screen and (max-width: 600px) {
 	article.header-video {
 		height: 50vh;
 	}
@@ -2515,4 +2517,8 @@ article.major .one .bottom .bottom-item {
 	}
 html {
 	scroll-behavior: smooth;
+}
+
+p {
+	font-family: "Source Sans Pro", Helvetica, sans-serif;
 }
