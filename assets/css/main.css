@@ -1544,7 +1544,9 @@ input, select, textarea {
 						#header nav > ul > li a.active {
 							background-color: #242629;
 						}
-
+						#header .navness {
+							display: flex;
+							flex-direction: row;
 	@media screen and (max-width: 736px) {
 
 		body {
@@ -1560,6 +1562,10 @@ input, select, textarea {
 			height: 4em;
 			padding: 0 1em;
 			top: 0;
+
+			display: flex;
+			align-items: center;
+
 		}
 
 			body.is-preload #header {
@@ -1581,7 +1587,18 @@ input, select, textarea {
 				font-size: 0.9em;
 				padding: 0em;
 			}
+			#header .navness {
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: flex-end;
+			}
 
+			@media screen and (max-width: 340px) {
+				.navness .will-hide {
+					visibility: hidden;
+				}
+			}
+		}
 	}
 
 /* Main */
@@ -2115,13 +2132,12 @@ input, select, textarea {
 
 	 .two {
 		width: 100%;
+		min-width: 615px;
 		height: 100%;
-		max-width: 800px;
 	}	
 	 .two img{
 		width:100%;
-		height: 100%;
-
+		height:100%;
 	}	
 
 	@media only screen and (max-width: 800px) {
