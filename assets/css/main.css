@@ -2156,10 +2156,10 @@ input, select, textarea {
 	}	
 	@media only screen and (max-width: 450px){
 		.two {
-			max-height: 300px;
+			max-height: 325px;
 		}
 		.one {
-			min-height: 550px;
+			min-height: 525px;
 		}
 	}
 	@media only screen and (max-width: 1025px) {
