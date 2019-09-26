@@ -2112,8 +2112,7 @@ input, select, textarea {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-
-	
+	height: auto;
 }
 	.one {
 		display: flex;
@@ -2127,11 +2126,8 @@ input, select, textarea {
 			flex-direction: column;
 			width: 100%;
 			text-align: center;
-			margin: 10% auto;
-			height:100%;
+			margin: auto 20px auto 20px;
 			align-items: center;
-			padding: 10px 10%;
-		
 		}
 		.inside-one h1 {
 			font-size: 4vh;
@@ -2141,8 +2137,7 @@ input, select, textarea {
 		}
 
 	 .two {
-		width: 100%;
-		min-width: 675px;
+		width: 60vw;
 		height: auto;
 		display: flex;
 		flex-direction: row;
@@ -2178,6 +2173,7 @@ input, select, textarea {
 			flex-direction: column;}
 
 			.two {
+				width: 100%;
 				max-width: 100%;
 				min-width: auto;
 			}	
