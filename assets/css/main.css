@@ -2154,7 +2154,14 @@ input, select, textarea {
 		height:100%;
 
 	}	
-
+	@media only screen and (max-width: 450px){
+		.two {
+			max-height: 300px;
+		}
+		.one {
+			min-height: 550px;
+		}
+	}
 	@media only screen and (max-width: 1025px) {
 		.bottom-one {
 
