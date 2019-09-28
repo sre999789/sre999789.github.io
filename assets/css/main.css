@@ -2126,7 +2126,8 @@ input, select, textarea {
 			flex-direction: column;
 			width: 100%;
 			text-align: center;
-			margin: auto 20px auto 20px;
+			padding-right: 7px;
+			padding-left: 7px;
 			align-items: center;
 		}
 		.inside-one h1 {
@@ -2155,6 +2156,12 @@ input, select, textarea {
 			min-height: 525px;
 		}
 	}
+	@media only screen and (max-width: 400px){
+
+		.one {
+			min-height: 600px;
+		}
+	}
 	@media only screen and (max-width: 1025px) {
 		.bottom-one {
 
@@ -2170,7 +2177,8 @@ input, select, textarea {
 			max-width: 1025px;
 		
 			display: flex;
-			flex-direction: column;}
+			flex-direction: column;
+		}
 
 			.two {
 				width: 100%;
@@ -2523,7 +2531,7 @@ article.major .one .bottom .bottom-item {
 	.son2 {
 		text-align: center;
 		padding: 20px 20px;
-		padding-left: 10%;
+
 
 	}
 		.son2 p {
